@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorageLibrary", "AzureStorageLibrary\AzureStorageLibrary.csproj", "{9C649641-45FF-48C1-A937-7697544D455B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWebApp", "MvcWebApp\MvcWebApp.csproj", "{873CA399-CA2F-4407-8246-68EAA7AB5A3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9C649641-45FF-48C1-A937-7697544D455B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C649641-45FF-48C1-A937-7697544D455B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C649641-45FF-48C1-A937-7697544D455B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{873CA399-CA2F-4407-8246-68EAA7AB5A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873CA399-CA2F-4407-8246-68EAA7AB5A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873CA399-CA2F-4407-8246-68EAA7AB5A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873CA399-CA2F-4407-8246-68EAA7AB5A3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
