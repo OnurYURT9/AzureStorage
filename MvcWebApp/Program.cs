@@ -6,9 +6,10 @@ using System;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-ConnectionStrings.AzureStorageConnectionString = builder.Configuration.GetSection("AzureConnectionStrings")["StorageConStr"];
+ConnectionStrings.AzureStorageConnectionString = builder.Configuration.GetSection("AzureConnectionStrings")["StorageCloudConString"];
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped(typeof(INoSqlStorage<>), typeof(TableStorage<>));
+builder.Services.AddSingleton<IBlobStorage, BlobStorage>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
