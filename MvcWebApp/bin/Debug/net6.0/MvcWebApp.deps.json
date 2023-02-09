@@ -57,6 +57,19 @@
           }
         }
       },
+      "Azure.Storage.Queues/12.12.0": {
+        "dependencies": {
+          "Azure.Storage.Common": "12.13.0",
+          "System.Memory.Data": "1.0.2",
+          "System.Text.Json": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Azure.Storage.Queues.dll": {
+            "assemblyVersion": "12.12.0.0",
+            "fileVersion": "12.1200.22.51204"
+          }
+        }
+      },
       "Humanizer.Core/2.2.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.1"
@@ -2217,6 +2230,7 @@
       "AzureStorageLibrary/1.0.0": {
         "dependencies": {
           "Azure.Storage.Blobs": "12.14.1",
+          "Azure.Storage.Queues": "12.12.0",
           "Microsoft.Azure.Cosmos.Table": "1.0.8",
           "Microsoft.Azure.Storage.Blob": "11.2.3",
           "System.IO": "4.3.0",
@@ -2254,6 +2268,13 @@
       "sha512": "sha512-jDv8xJWeZY2Er9zA6QO25BiGolxg87rItt9CwAp7L/V9EPJeaz8oJydaNL9Wj0+3ncceoMgdiyEv66OF8YUwWQ==",
       "path": "azure.storage.common/12.13.0",
       "hashPath": "azure.storage.common.12.13.0.nupkg.sha512"
+    },
+    "Azure.Storage.Queues/12.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PwrfymLYFmmOt6A0vMiDVhBV7RoOAKftzzvrbSM3W9cJKpkxAg57AhM7/wbNb3P8Uq0B73lBurkFiFzWK9PXHg==",
+      "path": "azure.storage.queues/12.12.0",
+      "hashPath": "azure.storage.queues.12.12.0.nupkg.sha512"
     },
     "Humanizer.Core/2.2.0": {
       "type": "package",

@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BlhlpJxtHLOyD+hvmHxTk4kege0PoGiGvQnmmE3gHLjJASZUXQa2G6IKaQ7LKhioUcTfsHilnrd1hQIl4DDCtA==",
+  "dgSpecHash": "cbQlpL76Z8AINeR2+OABz+rrQQ6ibgwQaWf7WJzY/GCTq+ZFR0pNc8bC41XpsTDF5Chjsp6Hu9dIVJbvB00RZQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ONUR\\source\\repos\\UdemyAzureStorage\\MvcWebApp\\MvcWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ONUR\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ONUR\\.nuget\\packages\\azure.storage.blobs\\12.14.1\\azure.storage.blobs.12.14.1.nupkg.sha512",
     "C:\\Users\\ONUR\\.nuget\\packages\\azure.storage.common\\12.13.0\\azure.storage.common.12.13.0.nupkg.sha512",
+    "C:\\Users\\ONUR\\.nuget\\packages\\azure.storage.queues\\12.12.0\\azure.storage.queues.12.12.0.nupkg.sha512",
     "C:\\Users\\ONUR\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\ONUR\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\ONUR\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

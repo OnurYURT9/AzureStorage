@@ -58,6 +58,24 @@
           }
         }
       },
+      "Azure.Storage.Queues/12.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Storage.Common": "12.13.0",
+          "System.Memory.Data": "1.0.2",
+          "System.Text.Json": "4.7.2"
+        },
+        "compile": {
+          "lib/netstandard2.1/Azure.Storage.Queues.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Azure.Storage.Queues.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Azure.Cosmos.Table/1.0.8": {
         "type": "package",
         "dependencies": {
@@ -2023,6 +2041,24 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Storage.Common.dll",
         "lib/netstandard2.0/Azure.Storage.Common.xml"
+      ]
+    },
+    "Azure.Storage.Queues/12.12.0": {
+      "sha512": "PwrfymLYFmmOt6A0vMiDVhBV7RoOAKftzzvrbSM3W9cJKpkxAg57AhM7/wbNb3P8Uq0B73lBurkFiFzWK9PXHg==",
+      "type": "package",
+      "path": "azure.storage.queues/12.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.storage.queues.12.12.0.nupkg.sha512",
+        "azure.storage.queues.nuspec",
+        "azureicon.png",
+        "lib/netstandard2.0/Azure.Storage.Queues.dll",
+        "lib/netstandard2.0/Azure.Storage.Queues.xml",
+        "lib/netstandard2.1/Azure.Storage.Queues.dll",
+        "lib/netstandard2.1/Azure.Storage.Queues.xml"
       ]
     },
     "Microsoft.Azure.Cosmos.Table/1.0.8": {
@@ -6383,6 +6419,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Azure.Storage.Blobs >= 12.14.1",
+      "Azure.Storage.Queues >= 12.12.0",
       "Microsoft.Azure.Cosmos.Table >= 1.0.8",
       "Microsoft.Azure.Storage.Blob >= 11.2.3",
       "System.IO >= 4.3.0",
@@ -6437,6 +6474,10 @@
           "Azure.Storage.Blobs": {
             "target": "Package",
             "version": "[12.14.1, )"
+          },
+          "Azure.Storage.Queues": {
+            "target": "Package",
+            "version": "[12.12.0, )"
           },
           "Microsoft.Azure.Cosmos.Table": {
             "target": "Package",
