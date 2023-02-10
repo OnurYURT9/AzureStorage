@@ -31,6 +31,6 @@ Append Blob:  Ekleme işlemleri yapacağımız blob yapacaksak sürekli o dosyay
 
 Page Blob: Datalar page page tutulur. Her page 512 byte dan meydana gelir. Herhangi byte aralığında okuma ve yazma işlemi gerçekleştirilir. Sanal makinelere disk bağlandığı zaman azure tarafında page bloklardan destekleniyor.
 
-##AZURE QUEUE STORAGE
+## AZURE QUEUE STORAGE
 
 Mesaj kuyruk sistemidir. Web veya mobil uygulamasında çok uzun süren işlemler varsa onu o anda yapmak yerine arka tarafta çalışan kuyruğa mesaj atıyorsun bunu dinleyen başka bir uygulama onu alıyor ve işliyor o sayede o sistem tarafından değilde daha sonra başka bir sistem tarafından işlenmiş oluyor.
